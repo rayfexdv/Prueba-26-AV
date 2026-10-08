@@ -1,0 +1,14 @@
+.desaparece:hover{
+    opacity: 0;
+}.desaparece{
+    transition: all 5s;
+}
+.gallery-grid{
+
+    img{
+        filter: grayscale(1);
+    }
+    img:hover{
+        filter: grayscale(0);
+    }
+}
