@@ -50,6 +50,9 @@
             transform: translateX(800px) rotateY(30deg) scale(6.5);
     -webkit-transform-origin: -100% 50%;
             transform-origin: -100% 50%;
+            letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
     opacity: 0;
   }
   100% {
@@ -57,6 +60,8 @@
             transform: translateX(0) rotateY(0) scale(1);
     -webkit-transform-origin: 600px 50%;
             transform-origin: 600px 50%;
+            -webkit-filter: blur(0px);
+            filter: blur(0px);
     opacity: 1;
   }
 }
