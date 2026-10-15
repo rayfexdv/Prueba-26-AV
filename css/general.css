@@ -1,5 +1,40 @@
 /* Comentario generico para subida nueva */
-
+*{
+    margin: 0;
+}
 body{
     background-color: seashell;
+}
+nav{
+    padding: 15px 25px;
+    font-size: 2.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: whitesmoke;
+    z-index: 2;
+}
+
+.glass{
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.5px);
+-webkit-backdrop-filter: blur(7.5px);
+border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.fijo-izq{
+    position: fixed;
+    left: 1%;
+    bottom: 0;
+}
+.textoRelleno{
+    font-size: 2rem;
 }
