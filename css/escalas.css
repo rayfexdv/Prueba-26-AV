@@ -1,0 +1,7 @@
+.multimedia-16-9{
+    aspect-ratio: 16/9 ;
+}
+.imagen-1-1{
+    aspect-ratio: 1;
+    object-fit: cover;
+}
